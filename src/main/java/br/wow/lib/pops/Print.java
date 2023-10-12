@@ -1,4 +1,4 @@
-package br.com.javawow.lib;
+package br.wow.lib.pops;
 
 /**
  * @author Daniel Almeida
@@ -8,14 +8,15 @@ public final class Print {
 
 
     /**
-     * @notes Exemplo: import static br.org.javaizi.lib.Print.print
+     * @notes Exemplo: import static br.wow.javawow.lib.pops.Print.print or import static br.wow.javawow.lib.pops.Print.*;
+     *
      */
     public static <T> void  print(T value) {
         System.out.println(value);
     }
 
     /**
-     * @notes The method p() is used to print values in the same line. Similar to System.out.println(value)
+     * @notes The method p() is used to print values. Similar to System.out.println(value)
      * @param value
      * @param <T>
      */
@@ -24,7 +25,7 @@ public final class Print {
     }
 
     /**
-     * @notes The method pmv() is used to print values in the same line. Similar to System.out.println(message +" "+ value)
+     * @notes The method pmv() is used to print messages and values. Similar to System.out.println(message +" "+ value)
      * @param message
      * @param value
      * @param <T>
@@ -32,7 +33,6 @@ public final class Print {
     public static <T> void  pmv(String message, T value) {
         System.out.println(message + " " + value);
     }
-
 
     /**
      * @notes The method printf() is used to print values in the same line. Similar to System.out.printf(format, args)

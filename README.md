@@ -10,34 +10,35 @@ way. It's a library for new programmers, that are learning Java, but it can be u
 ## Objective
 
 The main objective of Javawow is to help new programmers to learn Java more easily.
-Create a libraries of a multiporpose methods, that can be used in any Java project.
-Logic, Math, Geometry, Validation, Print, Loop, Tree, Text, Data, File, Connection, etc.
-We're starting working now, so we havea lot of work to do.
+Create a libraries of a multiporpose methods, that can be used in any Java project. We're starting working now, so we havea lot of work to do.
 New ideas are welcome. Feel free to contribute.
 
-## We are studens learning Java. We are not experts, but we are trying to help new programmers.
+### The project begins with a simple idea: to create a library that helps new programmers to learn Java more easily.
 
-## Join us!
+# First package in the library: pops
 
-# First package in the Library: br.pops
-
-The package br.pops contains the first classes of the library. We try nomeclatures that can be easily understood by new programmers.
+The package pops contains the first classes of the library. We try nomeclatures that can be easily understood by new programmers.
 Our ideia is to work only one package, but we can change this in the future.
 
 
-# First Class in the Library: Print
+# First Class in the library: Print
 
 How to import the class:
 
-```java  
-import static br.com.javawow.lib.Print.*;
-
+```java
+import static br.wow.lib.pops.Print.*;
 /**
- * For Java 17 
+ * Examples of use
+ * Using Java 17
  */
 class Main {
     public static void main(String[] args) {
-        print("Hello World!");
+        print("Hello World!"); //System.out.println("Hello World!");
+        p("Hello World!"); //System.out.println("Hello World!");
+        pmv("Hello World!", "Yeah!"); //System.out.println("Hello World!" + " " +  "Yeah!");
+        pl("Hello World!"); //System.out.print("Hello World!");
+        printf("Hello %s!", "World"); //System.out.printf("Hello %s!", "World");
+        breakLine(); //System.out.println();
     }
 }
 ```
@@ -46,6 +47,12 @@ class Main {
 The Print class provides a series of methods to print messages on the console. The main print method, which simplifies
 the so controversial System.out.println, allows new programmers to print messages with a much simpler call.
 
-We have many ideas to implement in this project, but we need your help.
+
+
+### We have many ideas to implement in this project, but we need your help.
+### Join us and help us to create a better Java library for new programmers.
 
 Thanks for read this.
+
+## Author
+- Daniel Almeida - @DanielAlmeidaBrazil - Software Engineering Student

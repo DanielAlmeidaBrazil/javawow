@@ -1,10 +1,10 @@
-# Javawow! New Java library for a friendly code
+# Jwow! New Java library for a friendly code
 
 Working with Java 17
 
-## What is Javawow?
+## What is Jwow?
 
-Javawow is a Java library that allows you to write code in amore friendly
+Jwow is a Java library that allows you to write code in amore friendly
 way. It's a library for new programmers, that are learning Java, but it can be used by anyone. 
 
 ## Objective
